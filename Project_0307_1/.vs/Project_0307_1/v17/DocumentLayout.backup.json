@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\Project_0307_1\\NumberBaseball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\NumberBaseball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\NumberBaseball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\Project_0307_1\\Add.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\Add.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\Add.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\Project_0307_1\\NewTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\NewTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\NewTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\Project_0307_1\\Dice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\Dice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\Dice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\Project_0307_1\\Add.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\Add.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\Add.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "NumberBaseball.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\Project_0307_1\\NumberBaseball.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\NumberBaseball.cpp",
               "RelativeDocumentMoniker": "Project_0307_1\\NumberBaseball.cpp",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\Project_0307_1\\NumberBaseball.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\NumberBaseball.cpp",
               "RelativeToolTip": "Project_0307_1\\NumberBaseball.cpp",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAYwB8AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-10T05:54:15.877Z",
               "EditorCaption": ""
@@ -49,35 +49,33 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Dice.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\Project_0307_1\\Dice.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\Dice.cpp",
               "RelativeDocumentMoniker": "Project_0307_1\\Dice.cpp",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\Project_0307_1\\Dice.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\Dice.cpp",
               "RelativeToolTip": "Project_0307_1\\Dice.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-10T05:09:13.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T05:09:13.191Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "NewTest.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\Project_0307_1\\NewTest.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\NewTest.cpp",
               "RelativeDocumentMoniker": "Project_0307_1\\NewTest.cpp",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\Project_0307_1\\NewTest.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\NewTest.cpp",
               "RelativeToolTip": "Project_0307_1\\NewTest.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-10T05:09:11.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T05:09:11.872Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Add.h",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\Project_0307_1\\Add.h",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\Add.h",
               "RelativeDocumentMoniker": "Project_0307_1\\Add.h",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\Project_0307_1\\Add.h",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\Add.h",
               "RelativeToolTip": "Project_0307_1\\Add.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -87,14 +85,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Add.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\Project_0307_1\\Add.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\Add.cpp",
               "RelativeDocumentMoniker": "Project_0307_1\\Add.cpp",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Programming\\Project_0307_1\\Project_0307_1\\Add.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\Add.cpp",
               "RelativeToolTip": "Project_0307_1\\Add.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-10T05:10:54.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T05:10:54.646Z"
             }
           ]
         }

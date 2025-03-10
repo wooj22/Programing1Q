@@ -9,9 +9,9 @@ using namespace std;
 void RandomIntCreating(int &n1, int &n2, int &n3) {
 	srand(static_cast<unsigned int>(time(NULL)));
 	while (true) {
-		n1 = rand() & 10;
-		n2 = rand() & 10;
-		n3 = rand() & 10;
+		n1 = rand() % 10;
+		n2 = rand() % 10;
+		n3 = rand() % 10;
 
 		if (n1 != n2 && n1 !=n3 && n2!=n3)
 			break;
@@ -27,7 +27,7 @@ int main(){
 	int out = 0;			// 자리 X, 숫자 x
 
 	RandomIntCreating(result[0], result[1], result[2]);
-	printf("미리보는 정답ㅎ %d %d %d", result[0], result[1], result[2]);
+	printf("미리보는 정답ㅎ %d %d %d \n", result[0], result[1], result[2]);
 
 	printf("야구 게임을 시작합니다! 3개의 숫자를 맞춰주세요. (0~9)\n");
 
@@ -37,16 +37,21 @@ int main(){
 		printf("숫자를 입력해주세요(남은 기회 %d번) : ", i);
 		scanf_s("%d%d%d", &playerResult[0], &playerResult[1], &playerResult[2]);
 
-		// cheak!
+		// cheak - strike
 		for (int k = 0; k < 3; k++) {
 			if (result[k] == playerResult[k]) { strike++; }
-			else { out++; }
 		}
 
+		// ball
 		for (int k = 0; k < 3; k++) {
 			for (int j = 0; j < 3; j++) {
 				if (result[k] == playerResult[j]) { ball++; }
 			}
+		}
+
+		// cheak - out
+		for (int k = 0; k < 3; k++) {
+			if (result[k] != playerResult[k]) { out++; }
 		}
 
 		// 성공 output
