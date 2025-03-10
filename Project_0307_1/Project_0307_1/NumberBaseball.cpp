@@ -37,28 +37,31 @@ int main(){
 		printf("숫자를 입력해주세요(남은 기회 %d번) : ", i);
 		scanf_s("%d%d%d", &playerResult[0], &playerResult[1], &playerResult[2]);
 
-		// cheak - strike
+		// cheak - strike, out
 		for (int k = 0; k < 3; k++) {
 			if (result[k] == playerResult[k]) { strike++; }
+			else {
+				int j = 0;
+				for (j = 0; j < 3; j++) {
+					if (result[k] == playerResult[j]) break;
+				}
+				cout << j;
+				if (j == 3) { out++; }
+			}
 		}
 
-		// ball
+		// cheak - ball
 		for (int k = 0; k < 3; k++) {
 			for (int j = 0; j < 3; j++) {
 				if (result[k] == playerResult[j]) { ball++; }
 			}
 		}
 
-		// cheak - out
-		for (int k = 0; k < 3; k++) {
-			if (result[k] != playerResult[k]) { out++; }
-		}
-
 		// 성공 output
 		if (strike == 3) break;
 
 		// 실패 output
-		printf("Ball :%d   Strike : %d   Out : %d", ball, strike, out);
+		printf("Ball :%d   Strike : %d   Out : %d\n", ball, strike, out);
 
 		// 초기화
 		ball = 0;
