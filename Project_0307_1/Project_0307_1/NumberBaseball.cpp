@@ -45,7 +45,6 @@ int main(){
 				for (j = 0; j < 3; j++) {
 					if (result[k] == playerResult[j]) break;
 				}
-				cout << j;
 				if (j == 3) { out++; }
 			}
 		}
