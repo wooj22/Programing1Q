@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Add.cpp" />
     <ClCompile Include="Dice.cpp" />
+    <ClCompile Include="HangManGame.cpp" />
     <ClCompile Include="NewTest.cpp" />
     <ClCompile Include="NumberBaseball.cpp" />
   </ItemGroup>

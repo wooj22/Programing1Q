@@ -4,7 +4,7 @@
 #include <stdio.h>
 #pragma warning(disable:4996)
 using namespace std;
-
+/*
 // 랜덤한 값 3개 반환(중복X)
 void RandomIntCreating(int &n1, int &n2, int &n3) {
 	srand(static_cast<unsigned int>(time(NULL)));
@@ -74,3 +74,4 @@ int main(){
 	}
 	else { printf("정답입니다! 축하합니다. "); }
 }
+*/

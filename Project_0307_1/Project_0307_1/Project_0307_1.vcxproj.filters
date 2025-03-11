@@ -27,6 +27,9 @@
     <ClCompile Include="NumberBaseball.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="HangManGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Add.h">
