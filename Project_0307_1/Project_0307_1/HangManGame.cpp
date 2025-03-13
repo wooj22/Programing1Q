@@ -2,7 +2,7 @@
 #include <string.h>
 #include <iostream>
 using namespace std;
-
+/*
 #define MAX_WORDS 10
 #define MAX_LENGTH 15
 
@@ -84,3 +84,4 @@ int main() {
     }
     printf("\n\n행맨 게임을 종료합니다!");
 }
+*/
