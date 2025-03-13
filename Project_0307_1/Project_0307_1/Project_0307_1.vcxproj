@@ -132,6 +132,7 @@
     <ClCompile Include="DynamicMemoryAllocation.cpp" />
     <ClCompile Include="FileIOTest.cpp" />
     <ClCompile Include="HangManGame.cpp" />
+    <ClCompile Include="HangManGame_FileRead.cpp" />
     <ClCompile Include="LeakTest.cpp" />
     <ClCompile Include="NewTest.cpp" />
     <ClCompile Include="NumberBaseball.cpp" />

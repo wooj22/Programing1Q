@@ -17,7 +17,7 @@ void DirectoryCheak() {
 	cout << "GetModuleFileNameA : " << szBuffer1 << '\n' << "GetCurrentDirectoryA : " << szBuffer2;
 }
 
-
+/*
 // 파일 입출력 쓰기모드 (파일없으니까 실행 ㄴㄴ)
 int FileControll_W() {
 	FILE* fp = fopen("example.txt", "w");
@@ -51,7 +51,7 @@ int FileControll_W() {
 	fclose(fp);
 }
 
-/*
+
 int main() {
 	//DirectoryCheak();
 	return 0;

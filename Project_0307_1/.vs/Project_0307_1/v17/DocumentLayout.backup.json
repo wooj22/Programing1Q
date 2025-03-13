@@ -3,24 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\HangManGame_FileRead.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\HangManGame_FileRead.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\FileIOTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\FileIOTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\DynamicMemoryAllocation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\DynamicMemoryAllocation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\HangManGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\HangManGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\LeakTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\LeakTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\SelfStudy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\SelfStudy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\HangManGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\HangManGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\DynamicMemoryAllocation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\DynamicMemoryAllocation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +33,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FileIOTest.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\FileIOTest.cpp",
-              "RelativeDocumentMoniker": "Project_0307_1\\FileIOTest.cpp",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\FileIOTest.cpp",
-              "RelativeToolTip": "Project_0307_1\\FileIOTest.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-13T05:37:58.72Z",
+              "DocumentIndex": 1,
+              "Title": "stdio.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "ViewState": "AgIAAHYCAAAAAAAAAAAvwIUCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-13T07:21:34.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "HangManGame_FileRead.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\HangManGame_FileRead.cpp",
+              "RelativeDocumentMoniker": "Project_0307_1\\HangManGame_FileRead.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\HangManGame_FileRead.cpp",
+              "RelativeToolTip": "Project_0307_1\\HangManGame_FileRead.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-13T06:11:35.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LeakTest.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\LeakTest.cpp",
               "RelativeDocumentMoniker": "Project_0307_1\\LeakTest.cpp",
@@ -60,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "DynamicMemoryAllocation.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\DynamicMemoryAllocation.cpp",
               "RelativeDocumentMoniker": "Project_0307_1\\DynamicMemoryAllocation.cpp",
@@ -73,26 +89,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SelfStudy.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\SelfStudy.cpp",
-              "RelativeDocumentMoniker": "Project_0307_1\\SelfStudy.cpp",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\SelfStudy.cpp",
-              "RelativeToolTip": "Project_0307_1\\SelfStudy.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FileIOTest.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\FileIOTest.cpp",
+              "RelativeDocumentMoniker": "Project_0307_1\\FileIOTest.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\FileIOTest.cpp",
+              "RelativeToolTip": "Project_0307_1\\FileIOTest.cpp",
+              "ViewState": "AgIAABMAAAAAAAAAAAAWwBkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-11T07:28:27.743Z",
+              "WhenOpened": "2025-03-13T05:37:58.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "HangManGame.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\HangManGame.cpp",
               "RelativeDocumentMoniker": "Project_0307_1\\HangManGame.cpp",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\HangManGame.cpp",
               "RelativeToolTip": "Project_0307_1\\HangManGame.cpp",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAmwFYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-11T06:27:11.42Z",
               "EditorCaption": ""
