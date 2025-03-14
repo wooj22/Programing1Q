@@ -37,7 +37,7 @@ int main() {
     fgetc(fp);
     printf("총 단어의 수 : %d\n", maxWords);
 
-    // 2차원 문자열 배열 연속된 메모리 공간으로 동적 할당하기 (char[단어수][단어길이]) 
+    // 2차원 문자열 배열 연속된 메모리 공간으로 동적 할당하기
     char* wordList2 = new char[maxWords * MAX_LENGTH];
 
     // 단어 읽기
