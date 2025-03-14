@@ -30,7 +30,7 @@
     <ClCompile Include="HangManGame.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="SelfStudy.cpp">
+    <ClCompile Include="ProgrammersStudy.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="DynamicMemoryAllocation.cpp">

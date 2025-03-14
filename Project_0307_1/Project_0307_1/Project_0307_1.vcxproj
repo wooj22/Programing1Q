@@ -137,7 +137,7 @@
     <ClCompile Include="LeakTest.cpp" />
     <ClCompile Include="NewTest.cpp" />
     <ClCompile Include="NumberBaseball.cpp" />
-    <ClCompile Include="SelfStudy.cpp" />
+    <ClCompile Include="ProgrammersStudy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Add.h" />
