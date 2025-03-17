@@ -50,12 +50,12 @@ typedef __int64 INT_PTR;				// INT_PTR → __int64
 typedef INT_PTR* PINT_PTR;			    // PINT_PTR → INT_PTR의 포인터 (즉, __int64*)
 
 
-int main() {
-	struct  Player player1;
-	player1.playerState = STATE_IDLE;
-
-	union Example ex;
-	ex.a = 0x12;		// 저장
-	ex.b = 0x12345678;	// a 미루고 저장
-	ex.c = 3.141592583498234;	// 남은 공간이 없으므로 a, b는 미뤄 사라지고 c 저장
-}
+//int main() {
+//	Player player1;
+//	player1.playerState = STATE_IDLE;
+//
+//	union Example ex;
+//	ex.a = 0x12;		// 저장
+//	ex.b = 0x12345678;	// a 미루고 저장
+//	ex.c = 3.141592583498234;	// 남은 공간이 없으므로 a, b는 미뤄 사라지고 c 저장
+//}
