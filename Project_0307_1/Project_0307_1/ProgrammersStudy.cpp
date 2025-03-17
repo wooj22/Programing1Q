@@ -147,35 +147,35 @@ using namespace std;
 //}
 
 //10. 코드 처리하기
-string solution(string code) {
-    bool mode = 0;
-    string* sp = &code;
-    string ret = "";
-    string answer = "";
-
-
-    for (int i = 0; i < code.length(); i++) {
-        //if (*(sp + i) == "1") mode = !mode;
-        if(code[i] == '1') mode = !mode;
-
-        if (mode == '1') {
-            if (*(sp + i) != "1" && i % 2 != 0) {
-                ret.append(*(sp + i));
-            }
-        }
-        else {
-            if (*(sp + i) != "1" && i % 2 == 0) {
-                ret.append(*(sp + i));
-            }
-        }
-    }
-    
-    if (ret.compare("") == 0) ret = "EMPTY";
-    else answer = ret;
-
-    return answer;
-}
-
-int main() {
-    solution("abc1abc1abc");
-}
+//string solution(string code) {
+//    bool mode = 0;
+//    string* sp = &code;
+//    string ret = "";
+//    string answer = "";
+//
+//
+//    for (int i = 0; i < code.length(); i++) {
+//        //if (*(sp + i) == "1") mode = !mode;
+//        if(code[i] == '1') mode = !mode;
+//
+//        if (mode == '1') {
+//            if (*(sp + i) != "1" && i % 2 != 0) {
+//                ret.append(*(sp + i));
+//            }
+//        }
+//        else {
+//            if (*(sp + i) != "1" && i % 2 == 0) {
+//                ret.append(*(sp + i));
+//            }
+//        }
+//    }
+//    
+//    if (ret.compare("") == 0) ret = "EMPTY";
+//    else answer = ret;
+//
+//    return answer;
+//}
+//
+//int main() {
+//    solution("abc1abc1abc");
+//}

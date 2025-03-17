@@ -48,6 +48,9 @@
     <ClCompile Include="HangMan_ContiguousMemory.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0317.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Add.h">

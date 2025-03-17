@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\0317.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\0317.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\ProgrammersStudy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\ProgrammersStudy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\NewTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\NewTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\HangMan_ContiguousMemory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -27,32 +35,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "0317.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\0317.cpp",
+              "RelativeDocumentMoniker": "Project_0307_1\\0317.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\0317.cpp",
+              "RelativeToolTip": "Project_0307_1\\0317.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-17T05:08:43.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewTest.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\NewTest.cpp",
+              "RelativeDocumentMoniker": "Project_0307_1\\NewTest.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\NewTest.cpp",
+              "RelativeToolTip": "Project_0307_1\\NewTest.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-17T05:08:19.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProgrammersStudy.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\ProgrammersStudy.cpp",
               "RelativeDocumentMoniker": "Project_0307_1\\ProgrammersStudy.cpp",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\ProgrammersStudy.cpp",
               "RelativeToolTip": "Project_0307_1\\ProgrammersStudy.cpp",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJ8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-14T02:41:09.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HangMan_ContiguousMemory.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\HangMan_ContiguousMemory.cpp",
               "RelativeDocumentMoniker": "Project_0307_1\\HangMan_ContiguousMemory.cpp",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\HangMan_ContiguousMemory.cpp",
               "RelativeToolTip": "Project_0307_1\\HangMan_ContiguousMemory.cpp",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAmwGYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-14T01:14:18.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "HangManGame_FileRead.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\HangManGame_FileRead.cpp",
               "RelativeDocumentMoniker": "Project_0307_1\\HangManGame_FileRead.cpp",
