@@ -13,7 +13,7 @@ using namespace std;
 // Node* head = NULL;
 // 포인터를 사용하지 않고 노드를 생성하여 헤드 노드로 활용하는 방법도 있다.
 
-/*---- 노드 구조체 ----*/
+/*---- 노드 클래스 ----*/
 class Node {
 private:
 	int data;						// 데이터 필드
@@ -44,7 +44,7 @@ public :
 	}
 };
 
-/*---- 리스트 구조체 ----*/
+/*---- 리스트 클래스 ----*/
 class LinkedList {
 	Node head;	// 헤드 노드
 
