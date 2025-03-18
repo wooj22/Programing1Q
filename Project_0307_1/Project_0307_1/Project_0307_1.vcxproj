@@ -24,6 +24,7 @@
     <ProjectGuid>{d1431518-4b52-4f07-8d22-d8430b1d4da4}</ProjectGuid>
     <RootNamespace>Project03071</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>MainProject</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,13 +129,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="0317.cpp" />
+    <ClCompile Include="0318.cpp" />
     <ClCompile Include="Add.cpp" />
     <ClCompile Include="Dice.cpp" />
     <ClCompile Include="DynamicMemoryAllocation.cpp" />
     <ClCompile Include="FileIOTest.cpp" />
-    <ClCompile Include="HangManGame.cpp" />
-    <ClCompile Include="HangManGame_FileRead.cpp" />
-    <ClCompile Include="HangMan_ContiguousMemory.cpp" />
+    <ClCompile Include="HangMan.cpp" />
+    <ClCompile Include="HangMan_FileRead.cpp" />
+    <ClCompile Include="HangMan_FileRead2.cpp" />
     <ClCompile Include="LeakTest.cpp" />
     <ClCompile Include="NewTest.cpp" />
     <ClCompile Include="NumberBaseball.cpp" />

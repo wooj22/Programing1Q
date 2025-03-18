@@ -6,4 +6,3 @@
 // 아래 함수가 구현된 cpp 파일에도 이 헤더파일(Add.h)을 include해서 명확하게 링크함
 
 int add(int a, int b);
-

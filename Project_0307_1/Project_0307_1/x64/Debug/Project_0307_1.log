@@ -1,8 +1,3 @@
-﻿  SingleLinkedList.cpp
-C:\Users\User\Documents\GitHub\Programing1Q\Project_0307_1\Project_0307_1\SingleLinkedList.cpp(20,9): warning C4099: 'Node': 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다.
-      C:\Users\User\Documents\GitHub\Programing1Q\Project_0307_1\Project_0307_1\SingleLinkedList.cpp(17,7):
-      'Node' 선언을 참조하십시오.
-  
-C:\Users\User\Documents\GitHub\Programing1Q\Project_0307_1\Project_0307_1\SingleLinkedList.cpp(127,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\User\Documents\GitHub\Programing1Q\Project_0307_1\Project_0307_1\SingleLinkedList.cpp(44,1): warning C4715: 'Node::removeNext': 모든 제어 경로에서 값을 반환하지는 않습니다.
-  Project_0307_1.vcxproj -> C:\Users\User\Documents\GitHub\Programing1Q\Project_0307_1\x64\Debug\Project_0307_1.exe
+﻿  0318.cpp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\User\Documents\GitHub\Programing1Q\Project_0307_1\x64\Debug\Project_0307_1.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
