@@ -15,6 +15,6 @@ using namespace std;
   외부 라이브러리
 */
 
-int main() {
-	cout << add(1, 2); //add()함수가 선언되어있는 Add.h를 include하여 정의부(Add.cpp)를 찾아 연결함
-} 
+//int main() {
+//	cout << add(1, 2); //add()함수가 선언되어있는 Add.h를 include하여 정의부(Add.cpp)를 찾아 연결함
+//} 

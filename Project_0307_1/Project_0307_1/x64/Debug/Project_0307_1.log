@@ -1,3 +1,4 @@
-﻿  0318.cpp
-MSVCRTD.lib(exe_main.obj) : error LNK2019: main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-C:\Users\User\Documents\GitHub\Programing1Q\Project_0307_1\x64\Debug\Project_0307_1.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: 중간 디렉터리(x64\Debug\)에 다른 프로젝트(Project_0307_1.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  SingleLinkedList2.cpp
+C:\Users\User\Documents\GitHub\Programing1Q\Project_0307_1\Project_0307_1\SingleLinkedList2.cpp(70,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Project_0307_1.vcxproj -> C:\Users\User\Documents\GitHub\Programing1Q\Project_0307_1\x64\Debug\MainProject.exe

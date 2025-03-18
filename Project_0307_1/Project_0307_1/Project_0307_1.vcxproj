@@ -142,6 +142,7 @@
     <ClCompile Include="NumberBaseball.cpp" />
     <ClCompile Include="ProgrammersStudy.cpp" />
     <ClCompile Include="SingleLinkedList.cpp" />
+    <ClCompile Include="SingleLinkedList2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Add.h" />
