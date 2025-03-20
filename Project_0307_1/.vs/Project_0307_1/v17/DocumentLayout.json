@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\HangMan_FileRead2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\HangMan_FileRead2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\SingleLinkedList2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\SingleLinkedList2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9C56029-9B69-410D-85B9-ADF24DA496CE}|DataStructure\\DataStructure.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\DataStructure\\ReadMe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C9C56029-9B69-410D-85B9-ADF24DA496CE}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\ReadMe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9C56029-9B69-410D-85B9-ADF24DA496CE}|DataStructure\\DataStructure.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\DataStructure\\Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C9C56029-9B69-410D-85B9-ADF24DA496CE}|DataStructure\\DataStructure.vcxproj|solutionrelative:DataStructure\\Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\TickCount.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\TickCount.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HangMan_FileRead2.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\HangMan_FileRead2.cpp",
-              "RelativeDocumentMoniker": "Project_0307_1\\HangMan_FileRead2.cpp",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\HangMan_FileRead2.cpp",
-              "RelativeToolTip": "Project_0307_1\\HangMan_FileRead2.cpp",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFgAAAAYAAAAAAAAAA==",
+              "Title": "TickCount.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\TickCount.cpp",
+              "RelativeDocumentMoniker": "Project_0307_1\\TickCount.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\TickCount.cpp",
+              "RelativeToolTip": "Project_0307_1\\TickCount.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-18T10:22:54.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReadMe.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\DataStructure\\ReadMe.cpp",
-              "RelativeDocumentMoniker": "DataStructure\\ReadMe.cpp",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\DataStructure\\ReadMe.cpp",
-              "RelativeToolTip": "DataStructure\\ReadMe.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-18T05:44:39.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\DataStructure\\Class.cpp",
-              "RelativeDocumentMoniker": "DataStructure\\Class.cpp",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\DataStructure\\Class.cpp",
-              "RelativeToolTip": "DataStructure\\Class.cpp",
-              "ViewState": "AgIAADoAAAAAAAAAAAAmwD0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-18T06:07:47.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SingleLinkedList2.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\SingleLinkedList2.cpp",
-              "RelativeDocumentMoniker": "Project_0307_1\\SingleLinkedList2.cpp",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\SingleLinkedList2.cpp",
-              "RelativeToolTip": "Project_0307_1\\SingleLinkedList2.cpp",
-              "ViewState": "AgIAACwAAAAAAAAAAAAmwFEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-18T03:14:41.571Z",
+              "WhenOpened": "2025-03-20T05:31:33.695Z",
               "EditorCaption": ""
             }
           ]

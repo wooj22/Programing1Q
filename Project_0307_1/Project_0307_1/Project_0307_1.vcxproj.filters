@@ -63,6 +63,9 @@
     <ClCompile Include="SingleLinkedList2.cpp">
       <Filter>소스 파일\Lab</Filter>
     </ClCompile>
+    <ClCompile Include="TickCount.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Add.h">

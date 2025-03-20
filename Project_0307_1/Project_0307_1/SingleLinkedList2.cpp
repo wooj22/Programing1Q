@@ -40,7 +40,7 @@
 //    }
 //}
 //
-//// 출력
+//// 3. 출력
 //void display() {
 //    if (g_head == NULL) {
 //        printf("목록 없음 ");
