@@ -134,6 +134,7 @@
     <ClCompile Include="Dice.cpp" />
     <ClCompile Include="DynamicMemoryAllocation.cpp" />
     <ClCompile Include="FileIOTest.cpp" />
+    <ClCompile Include="GetAsyncKeyState.cpp" />
     <ClCompile Include="HangMan.cpp" />
     <ClCompile Include="HangMan_FileRead.cpp" />
     <ClCompile Include="HangMan_FileRead2.cpp" />

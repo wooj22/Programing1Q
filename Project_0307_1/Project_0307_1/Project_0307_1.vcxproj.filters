@@ -16,15 +16,15 @@
     <Filter Include="소스 파일\Lab">
       <UniqueIdentifier>{5e9bfff3-4798-4e03-b24e-f8855a12598a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Programmers">
+      <UniqueIdentifier>{cb70cb7a-b14e-4e04-9b0a-9d7c893b820e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NewTest.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Add.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ProgrammersStudy.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="DynamicMemoryAllocation.cpp">
@@ -65,6 +65,12 @@
     </ClCompile>
     <ClCompile Include="TickCount.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GetAsyncKeyState.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgrammersStudy.cpp">
+      <Filter>소스 파일\Programmers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
