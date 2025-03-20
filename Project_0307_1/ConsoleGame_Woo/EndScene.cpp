@@ -6,19 +6,19 @@
 namespace end {
 	// Start
 	void Initalize() {
-		printf("---------------End Scene Initalize----------------\n");
+		//printf("---------------End Scene Initalize----------------\n");
 		ConsoleRenderer::ScreenClear();
-		ConsoleRenderer::ScreenDrawString(0, 0, "END SCENE", FG_PINK_DARK);
+		ConsoleRenderer::ScreenDrawString(0, 0, "END SCENE", FG_GRAY);
 		ConsoleRenderer::ScreenFlipping();
 	}
 
 	// Update 
 	void Update() {
-		printf("End Scene Update\n");
+		//printf("End Scene Update\n");
 	}
 
 	// Render
 	void Render() {
-		printf("End Scene Render\n");
+		//printf("End Scene Render\n");
 	}
 }

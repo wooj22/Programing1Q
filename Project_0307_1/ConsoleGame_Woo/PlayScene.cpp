@@ -8,22 +8,21 @@ namespace play {
 
 	// Start
 	void Initalize() {
-		printf("---------------Play Scene Initalize----------------\n");
+		//printf("---------------Play Scene Initalize----------------\n");
 	}
 
 	// Update
 	void Update() {
-		printf("Play Scene Update\n");
+		//printf("Play Scene Update\n");
 		ProcessInput();
 		PlayerMove();
 	}
 
 	// Render
 	void Render() {
-		printf("Play Scene Render\n");
-
+		//printf("Play Scene Render\n");
 		ConsoleRenderer::ScreenClear();
-		ConsoleRenderer::ScreenDrawString(0, 0, "PLAY SCENE", FG_PINK_DARK);
+		ConsoleRenderer::ScreenDrawString(0, 0, "PLAY SCENE", FG_RED);
 		ConsoleRenderer::ScreenDrawChar(g_Player.X, g_Player.Y, 'P', FG_WHITE);
 		ConsoleRenderer::ScreenFlipping();
 	}

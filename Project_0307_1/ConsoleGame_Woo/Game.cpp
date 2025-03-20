@@ -85,6 +85,7 @@ void Render() {
 // [Spacebar]를 누르면 씬을 전환합니다.
 // 루프 종료가 없으니 주의하세요
 int main() {
+	ConsoleRenderer::ScreenInit();
 	Initalize();
 
 	while (true)
