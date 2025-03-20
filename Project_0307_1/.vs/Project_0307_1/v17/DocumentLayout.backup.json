@@ -55,8 +55,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-20T06:05:37.582Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "ConsoleGame_Woo\\MenuScene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-20T06:07:03.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T06:07:03.185Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "ConsoleGame_Woo\\PlayScene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-20T06:07:32.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T06:07:32.889Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "ConsoleGame_Woo\\EndScene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-20T06:07:58.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T06:07:58.578Z"
             },
             {
               "$type": "Document",
@@ -105,7 +101,7 @@
               "RelativeDocumentMoniker": "ConsoleGame_Woo\\Game.cpp",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Game.cpp",
               "RelativeToolTip": "ConsoleGame_Woo\\Game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-20T06:05:27.626Z",
               "EditorCaption": ""
@@ -120,8 +116,7 @@
               "RelativeToolTip": "ConsoleGame_Woo\\Menu.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-20T06:06:56.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T06:06:56.8Z"
             },
             {
               "$type": "Document",
@@ -133,8 +128,7 @@
               "RelativeToolTip": "ConsoleGame_Woo\\PlayScene.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-20T06:07:39.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T06:07:39.017Z"
             },
             {
               "$type": "Document",
@@ -146,8 +140,7 @@
               "RelativeToolTip": "ConsoleGame_Woo\\EndScene.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-20T06:07:48.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T06:07:48.205Z"
             }
           ]
         }

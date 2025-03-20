@@ -1,18 +1,20 @@
 #include <stdio.h>
+#include <windows.h>
 #include "EndScene.h"
 
+// 씬 진입 후 10초 뒤 MENU로 넘어가는 기능 추가
 namespace end {
-	// Start : EndScene에 처음 진입할때 호출
+	// Start
 	void Initalize() {
 		printf("---------------End Initalize----------------\n");
 	}
 
-	// Update : 상황에 (입력 또는 시간처리) 따라 SceneNext 설정
+	// Update 
 	void Update() {
 		printf("End Update\n");
 	}
 
-	// Render : 엔딩 그리기
+	// Render
 	void Render() {
 		printf("End Render\n");
 	}
