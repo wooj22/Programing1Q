@@ -83,7 +83,7 @@
 //
 //        for (int j = 0; wordList2[j] != '\0'; j++) {
 //            infoValues[j] = '-';
-//        }
+//        } 
 //
 //        // 2. 게임 진행
 //        while (true) {
