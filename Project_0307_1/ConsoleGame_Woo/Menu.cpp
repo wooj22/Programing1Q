@@ -1,20 +1,23 @@
 #include <stdio.h>
-#include "ConsoleRenderer.h"
 #include "MenuScene.h"
+#include "ConsoleRenderer.h"
 
 namespace menu {
 	// Start
 	void Initalize() {
-		printf("---------------Menu Initalize----------------\n");
+		printf("---------------Menu Scene Initalize----------------\n");
+		ConsoleRenderer::ScreenInit();
+		ConsoleRenderer::ScreenDrawString(0, 0, "MENU SCENE", FG_PINK_DARK);
+		ConsoleRenderer::ScreenFlipping();
 	}
 
 	// Update 
 	void Update() {
-		printf("Menu Update\n");
+		
 	}
 
 	// Render
 	void Render() {
-		printf("Menu Render\n");
+		
 	}
 }

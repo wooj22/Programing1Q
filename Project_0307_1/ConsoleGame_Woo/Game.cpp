@@ -4,6 +4,7 @@
 #include "MenuScene.h"
 #include "PlayScene.h"
 #include "EndScene.h"
+#include "ConsoleRenderer.h"
 
 // Start : 게임 시작
 void Initalize() {
@@ -15,7 +16,8 @@ void Initalize() {
 	g_PrevKeyState = 0;
 	g_keyState = 0;
 
-	printf("Game Start !\n");
+	// 메뉴씬 시작
+	menu::Initalize();
 }
 
 // Update : SceneCurrent에 따라 Update()호출
@@ -34,7 +36,6 @@ void Update() {
 				g_SceneCurrent = END_SCENE;
 				break;
 			case END_SCENE:
-				printf("마지막 씬은 씬을 전환할 수 없습니다.\n");
 				break;
 			default:
 				printf("여기오면 안되는데\n");
@@ -85,10 +86,13 @@ void Render() {
 // 루프 종료가 없으니 주의하세요
 int main() {
 	Initalize();
+
 	while (true)
 	{
 		Update();
 		Render();
 	}
+
+	ConsoleRenderer::ScreenRelease();
 	return 0;
 }
