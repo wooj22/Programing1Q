@@ -1,5 +1,5 @@
 #pragma once
-#include "Game.h"
+#include "ConsoleRenderer.h"
 
 // enum으로 Scene 관리
 enum Scene {
