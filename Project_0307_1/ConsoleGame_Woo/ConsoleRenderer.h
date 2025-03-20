@@ -48,18 +48,26 @@
 #define BG_GRAY			BACKGROUND_RED|BACKGROUND_GREEN|BACKGROUND_BLUE
 #define BG_WHITE		BG_GRAY|BACKGROUND_INTENSITY
 
+// 더블버퍼링을 활용한 콘솔 출력 기능
+
 namespace ConsoleRenderer
 {
-	void ScreenInit();
-	void ScreenRelease();
+	void ScreenInit();	    // 콘솔 화면 초기화 (버퍼 2개 생성)
+	void ScreenRelease();   // 버퍼 해제
 
-	void ScreenFlipping();
-	void ScreenClear();
+	void ScreenFlipping();  // 콘솔 화면 갱신 (버퍼 전환)
+	void ScreenClear();     // 콘솔 화면 지우기
 
+	// x, y위치에 문자 ch를 출력하고 속성을 설정
 	bool ScreenDrawChar(int x, int y, char ch, WORD attr);
+
+	// 특정 위치 (x, y)에 문자열 pStr을 출력하고 속성을 설정
 	bool ScreenDrawString(int x, int y, const char* pStr, WORD attr);
+
+	// 콘솔 화면 전체의 속성을 attr 값으로 변경
 	bool ScreenSetAttributes(WORD attr);
 
+	// 콘솔 사이즈 get
 	int ScreenWidth();
 	int ScreenHeight();
 };

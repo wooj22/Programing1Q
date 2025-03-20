@@ -90,6 +90,5 @@ int main() {
 		Update();
 		Render();
 	}
-
 	return 0;
 }

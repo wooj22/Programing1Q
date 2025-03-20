@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "ConsoleRenderer.h"
 #include "PlayScene.h"
 
 namespace play {

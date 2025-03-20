@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <windows.h>
+#include "ConsoleRenderer.h"
 #include "EndScene.h"
 
 // 씬 진입 후 10초 뒤 MENU로 넘어가는 기능 추가
