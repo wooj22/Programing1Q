@@ -8,7 +8,7 @@ enum Scene {
 };
 
 Scene g_SceneCurrent;
-Scene g_SceneNext;
+//Scene g_SceneNext;
 
 // 씬 전환 조건 : [Spacebar]
 SHORT g_PrevKeyState;

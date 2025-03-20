@@ -22,7 +22,7 @@
     <ClCompile Include="ConsoleRendrer.cpp" />
     <ClCompile Include="EndScene.cpp" />
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MenuScene.cpp" />
     <ClCompile Include="PlayScene.cpp" />
   </ItemGroup>
   <ItemGroup>

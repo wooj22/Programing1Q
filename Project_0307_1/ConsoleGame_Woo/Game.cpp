@@ -6,11 +6,15 @@
 #include "EndScene.h"
 #include "ConsoleRenderer.h"
 
+/*  END SCENE 유지시간 체크용 변수  */
+LARGE_INTEGER freq, startTime, endTime;
+double elapsedTime = 0;
+
 // Start : 게임 시작
 void Initalize() {
 	// 씬 초기화
 	g_SceneCurrent = MENU_SCENE;
-	g_SceneNext = PLAY_SCENE;
+	//g_SceneNext = PLAY_SCENE;
 
 	// 키 상태 초기화
 	g_PrevKeyState = 0;
@@ -28,12 +32,15 @@ void Update() {
 		switch (g_SceneCurrent) 
 		{
 			case MENU_SCENE:
-				play::Initalize();
 				g_SceneCurrent = PLAY_SCENE;
+				play::Initalize();
 				break;
 			case PLAY_SCENE:
-				end::Initalize();
 				g_SceneCurrent = END_SCENE;
+				end::Initalize();
+				// END SCENE 진입, 10초뒤 MENU SCENE 전환
+				QueryPerformanceFrequency(&freq);
+				QueryPerformanceCounter(&startTime);
 				break;
 			case END_SCENE:
 				break;
@@ -42,7 +49,7 @@ void Update() {
 				break;
 		}
 	}
-	g_PrevKeyState = g_keyState;
+	g_PrevKeyState = g_keyState;	// pre 키 상태 저장
 
 	// update
 	switch (g_SceneCurrent)
@@ -55,6 +62,15 @@ void Update() {
 			break;
 		case END_SCENE:
 			end::Update();
+
+			// END SCENE 5초 경과시 MENU SCENE 이동
+			QueryPerformanceCounter(&endTime);
+			elapsedTime = static_cast<double>(endTime.QuadPart - startTime.QuadPart) / freq.QuadPart;
+
+			if (elapsedTime >= 5.0) {
+				g_SceneCurrent = MENU_SCENE;
+				menu::Initalize();
+			}
 			break;
 		default:
 			printf("여기오면 안되는데\n");

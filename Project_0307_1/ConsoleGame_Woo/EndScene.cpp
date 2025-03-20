@@ -2,13 +2,14 @@
 #include "EndScene.h"
 #include "ConsoleRenderer.h"
 
+
 // 씬 진입 후 10초 뒤 MENU로 넘어가는 기능 추가
 namespace end {
 	// Start
 	void Initalize() {
 		//printf("---------------End Scene Initalize----------------\n");
 		ConsoleRenderer::ScreenClear();
-		ConsoleRenderer::ScreenDrawString(0, 0, "END SCENE", FG_GRAY);
+		ConsoleRenderer::ScreenDrawString(0, 0, "END SCENE  5초뒤 MENU SCENE으로 이동합니다", FG_GRAY);
 		ConsoleRenderer::ScreenFlipping();
 	}
 
