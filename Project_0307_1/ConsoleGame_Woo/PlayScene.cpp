@@ -29,7 +29,7 @@ namespace Play {
 
 	// Render
 	void Render() {
-		ConsoleRenderer::ScreenDrawString(0, 0, "[PLAY SCENE]", FG_RED);
+		ConsoleRenderer::ScreenDrawString(0, 0, "PLAY SCENE  [Spacebar]", FG_RED);
 		ConsoleRenderer::ScreenDrawChar(g_Player.X, g_Player.Y, 'P', FG_WHITE);
 	}
 

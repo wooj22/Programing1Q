@@ -13,7 +13,6 @@ namespace Game {
 
 	// Start : 게임 시작
 	void Initalize() {
-		// 메뉴씬 시작
 		Menu::Initalize();
 	}
 
@@ -63,7 +62,6 @@ namespace Game {
 		ConsoleRenderer::ScreenFlipping();
 	}
 }
-
 
 // Main : 게임 진행
 // [Spacebar]를 누르면 씬을 전환합니다.

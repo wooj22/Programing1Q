@@ -22,6 +22,6 @@ namespace Menu {
 
 	// Render
 	void Render() {
-		ConsoleRenderer::ScreenDrawString(0, 0, "MENU SCENE", FG_YELLOW);
+		ConsoleRenderer::ScreenDrawString(0, 0, "MENU SCENE  [Spacebar]", FG_YELLOW);
 	}
 }
