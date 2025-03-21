@@ -5,6 +5,7 @@
 #include "PlayScene.h"
 #include "EndScene.h"
 #include "ConsoleRenderer.h"
+#include "Input.h"
 
 /*  END SCENE 유지시간 체크용 변수  */
 LARGE_INTEGER freq, startTime, endTime;
@@ -26,6 +27,9 @@ void Initalize() {
 
 // Update : SceneCurrent에 따라 Update()호출
 void Update() {
+	// key input
+	Input::Update();
+
 	// scene change
 	g_keyState = GetAsyncKeyState(VK_SPACE);
 	if ((g_keyState & 0x8000) && !(g_PrevKeyState & 0x8000)) {

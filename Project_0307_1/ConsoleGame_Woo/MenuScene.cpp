@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "MenuScene.h"
 #include "ConsoleRenderer.h"
+#include "Input.h"
 
 namespace menu {
 	// Start

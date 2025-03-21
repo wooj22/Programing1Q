@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "PlayScene.h"
 #include "ConsoleRenderer.h"
+#include "Input.h"
 
 namespace play {
 	COORD g_Player = { 0,0 };
@@ -29,19 +30,19 @@ namespace play {
 
 	void ProcessInput()
 	{
-		if (GetAsyncKeyState(VK_LEFT) & 0x8000) { //왼쪽
+		if (Input::IsKeyDown(VK_LEFT)) { //왼쪽
 			g_Player.X--;
 		}
-		if (GetAsyncKeyState(VK_RIGHT) & 0x8000) { //오른쪽
+		if (Input::IsKeyDown(VK_RIGHT)) { //오른쪽
 			g_Player.X++;
 		}
-		if (GetAsyncKeyState(VK_UP) & 0x8000) { //위
+		if (Input::IsKeyDown(VK_UP)) { //위
 			g_Player.Y--;
 		}
-		if (GetAsyncKeyState(VK_DOWN) & 0x8000) { //아래
+		if (Input::IsKeyDown(VK_DOWN)) { //아래
 			g_Player.Y++;
 		}
-		if (GetAsyncKeyState(VK_ESCAPE) & 0x8000) { //종료
+		if (Input::IsKeyDown(VK_ESCAPE)) { //종료
 			g_bQuit = true;
 		}
 	}
