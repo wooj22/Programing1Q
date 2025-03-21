@@ -9,19 +9,23 @@ namespace play {
 
 	// Start
 	void Initalize() {
-		//printf("---------------Play Scene Initalize----------------\n");
+		
 	}
 
 	// Update
 	void Update() {
-		//printf("Play Scene Update\n");
+		// input & play controll
 		ProcessInput();
 		PlayerMove();
+
+		// scene change
+		if (Input::IsKeyPressed(VK_SPACE)) {
+
+		}
 	}
 
 	// Render
 	void Render() {
-		//printf("Play Scene Render\n");
 		ConsoleRenderer::ScreenDrawString(0, 0, "[PLAY SCENE]", FG_RED);
 		ConsoleRenderer::ScreenDrawChar(g_Player.X, g_Player.Y, 'P', FG_WHITE);
 	}

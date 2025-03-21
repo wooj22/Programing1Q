@@ -6,17 +6,19 @@
 namespace menu {
 	// Start
 	void Initalize() {
-		//printf("---------------Menu Scene Initalize----------------\n");
+		
 	}
 
 	// Update 
 	void Update() {
-		//printf("Menu Scene Render\n");
+		// scene change
+		if (Input::IsKeyPressed(VK_SPACE)) {
+
+		}
 	}
 
 	// Render
 	void Render() {
-		//printf("Menu Scene Render\n");
 		ConsoleRenderer::ScreenDrawString(0, 0, "MENU SCENE", FG_YELLOW);
 	}
 }

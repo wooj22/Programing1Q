@@ -3,17 +3,16 @@
 #include "ConsoleRenderer.h"
 #include "Input.h"
 
-
-// 씬 진입 후 10초 뒤 MENU로 넘어가는 기능 추가
 namespace end {
 	// Start
 	void Initalize() {
-		//printf("---------------End Scene Initalize----------------\n");
+		
 	}
 
 	// Update 
 	void Update() {
-		//printf("End Scene Update\n");
+		// 씬 진입 후 10초 뒤 MENU로 넘어가는 기능 추가
+
 	}
 
 	// Render
