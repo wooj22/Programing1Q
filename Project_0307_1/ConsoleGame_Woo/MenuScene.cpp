@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include "Game.h"
 #include "MenuScene.h"
+#include "PlayScene.h"
 #include "ConsoleRenderer.h"
 #include "Input.h"
 
@@ -11,9 +13,10 @@ namespace Menu {
 
 	// Update 
 	void Update() {
-		// scene change (현재 Game.cpp에 구현되어있음)
+		// scene change
 		if (Input::IsKeyPressed(VK_SPACE)) {
-
+			Game::g_SceneCurrent = Game::PLAY_SCENE;
+			Play::Initalize();
 		}
 	}
 

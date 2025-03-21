@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include "Game.h"
 #include "PlayScene.h"
+#include "EndScene.h"
 #include "ConsoleRenderer.h"
 #include "Input.h"
 
@@ -8,8 +10,8 @@ namespace Play {
 	//bool g_bQuit = false;
 
 	// Start
-	void Initalize() {
-		
+	void Initalize() { 
+	
 	}
 
 	// Update
@@ -18,9 +20,10 @@ namespace Play {
 		ProcessInput();
 		PlayerMove();
 
-		// scene change (현재 Game.cpp에 구현되어있음)
+		// scene change
 		if (Input::IsKeyPressed(VK_SPACE)) {
-
+			Game::g_SceneCurrent = Game::END_SCENE;
+			End::Initalize();
 		}
 	}
 

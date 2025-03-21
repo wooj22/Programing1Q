@@ -3,52 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\EndScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\EndScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Time.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\Time.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Time.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\Time.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\PlayScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\PlayScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\MenuScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\MenuScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\MenuScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\MenuScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\PlayScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\PlayScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\EndScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\EndScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\EndScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\EndScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\MenuScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\MenuScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\PlayScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\PlayScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\MenuScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB91131D-2AAE-4887-AF86-3D9ADBA0756F}|ConsoleGame_Woo\\ConsoleGame_Woo.vcxproj|solutionrelative:ConsoleGame_Woo\\MenuScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,74 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Time.h",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Time.h",
-              "RelativeDocumentMoniker": "ConsoleGame_Woo\\Time.h",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Time.h",
-              "RelativeToolTip": "ConsoleGame_Woo\\Time.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-21T02:53:16.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Time.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Time.cpp",
-              "RelativeDocumentMoniker": "ConsoleGame_Woo\\Time.cpp",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Time.cpp",
-              "RelativeToolTip": "ConsoleGame_Woo\\Time.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-21T02:52:46.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Input.h",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Input.h",
-              "RelativeDocumentMoniker": "ConsoleGame_Woo\\Input.h",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Input.h",
-              "RelativeToolTip": "ConsoleGame_Woo\\Input.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-21T02:29:09.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Input.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Input.cpp",
-              "RelativeDocumentMoniker": "ConsoleGame_Woo\\Input.cpp",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Input.cpp",
-              "RelativeToolTip": "ConsoleGame_Woo\\Input.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-21T02:29:00.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Game.h",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Game.h",
               "RelativeDocumentMoniker": "ConsoleGame_Woo\\Game.h",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Game.h",
               "RelativeToolTip": "ConsoleGame_Woo\\Game.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-20T06:05:37.582Z"
+              "WhenOpened": "2025-03-20T06:05:37.582Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "MenuScene.h",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\MenuScene.h",
               "RelativeDocumentMoniker": "ConsoleGame_Woo\\MenuScene.h",
@@ -133,11 +67,12 @@
               "RelativeToolTip": "ConsoleGame_Woo\\MenuScene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-20T06:07:03.185Z"
+              "WhenOpened": "2025-03-20T06:07:03.185Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "PlayScene.h",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\PlayScene.h",
               "RelativeDocumentMoniker": "ConsoleGame_Woo\\PlayScene.h",
@@ -145,11 +80,12 @@
               "RelativeToolTip": "ConsoleGame_Woo\\PlayScene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-20T06:07:32.889Z"
+              "WhenOpened": "2025-03-20T06:07:32.889Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "EndScene.h",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\EndScene.h",
               "RelativeDocumentMoniker": "ConsoleGame_Woo\\EndScene.h",
@@ -157,29 +93,31 @@
               "RelativeToolTip": "ConsoleGame_Woo\\EndScene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-20T06:07:58.578Z"
+              "WhenOpened": "2025-03-20T06:07:58.578Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Game.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Game.cpp",
               "RelativeDocumentMoniker": "ConsoleGame_Woo\\Game.cpp",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\Game.cpp",
               "RelativeToolTip": "ConsoleGame_Woo\\Game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-20T06:05:27.626Z"
+              "WhenOpened": "2025-03-20T06:05:27.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MenuScene.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\MenuScene.cpp",
               "RelativeDocumentMoniker": "ConsoleGame_Woo\\MenuScene.cpp",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\MenuScene.cpp",
               "RelativeToolTip": "ConsoleGame_Woo\\MenuScene.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-20T06:06:56.8Z",
               "EditorCaption": ""
@@ -192,20 +130,20 @@
               "RelativeDocumentMoniker": "ConsoleGame_Woo\\PlayScene.cpp",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\PlayScene.cpp",
               "RelativeToolTip": "ConsoleGame_Woo\\PlayScene.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-20T06:07:39.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "EndScene.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\EndScene.cpp",
               "RelativeDocumentMoniker": "ConsoleGame_Woo\\EndScene.cpp",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ConsoleGame_Woo\\EndScene.cpp",
               "RelativeToolTip": "ConsoleGame_Woo\\EndScene.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-20T06:07:48.205Z",
               "EditorCaption": ""

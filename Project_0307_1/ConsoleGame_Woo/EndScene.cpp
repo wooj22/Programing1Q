@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "Game.h"
+#include "MenuScene.h"
 #include "EndScene.h"
 #include "ConsoleRenderer.h"
 #include "Input.h"
@@ -12,16 +14,16 @@ namespace End {
 
 	// Update 
 	void Update() {
-		// scene change (현재 Game.cpp에 구현되어있음)
+		// scene change
 		Time::UpdateTime();
-		if (Time::GetTotalTime() >= 10.0) {
-
+		if (Time::GetTotalTime() >= 5.0) {
+			Game::g_SceneCurrent = Game::MENU_SCENE;
+			Menu::Initalize();
 		}
 	}
 
 	// Render
 	void Render() {
-		//printf("End Scene Render\n");
 		ConsoleRenderer::ScreenDrawString(0, 0, "END SCENE  5초뒤 MENU SCENE으로 이동합니다", FG_GRAY);
 	}
 }
