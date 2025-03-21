@@ -1,6 +1,6 @@
 #pragma once
 
-namespace menu {
+namespace Menu {
 
 	void Initalize();
 	void Update();

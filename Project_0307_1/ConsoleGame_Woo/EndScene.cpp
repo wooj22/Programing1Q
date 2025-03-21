@@ -3,7 +3,7 @@
 #include "ConsoleRenderer.h"
 #include "Input.h"
 
-namespace end {
+namespace End {
 	// Start
 	void Initalize() {
 		

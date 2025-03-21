@@ -3,9 +3,9 @@
 #include "ConsoleRenderer.h"
 #include "Input.h"
 
-namespace play {
+namespace Play {
 	COORD g_Player = { 0,0 };
-	bool g_bQuit = false;
+	//bool g_bQuit = false;
 
 	// Start
 	void Initalize() {
@@ -32,21 +32,21 @@ namespace play {
 
 	void ProcessInput()
 	{
-		if (Input::IsKeyDown(VK_LEFT)) { //왼쪽
+		if (Input::IsKeyDown(VK_LEFT)) {
 			g_Player.X--;
 		}
-		if (Input::IsKeyDown(VK_RIGHT)) { //오른쪽
+		if (Input::IsKeyDown(VK_RIGHT)) {
 			g_Player.X++;
 		}
-		if (Input::IsKeyDown(VK_UP)) { //위
+		if (Input::IsKeyDown(VK_UP)) {
 			g_Player.Y--;
 		}
-		if (Input::IsKeyDown(VK_DOWN)) { //아래
+		if (Input::IsKeyDown(VK_DOWN)) {
 			g_Player.Y++;
 		}
-		if (Input::IsKeyDown(VK_ESCAPE)) { //종료
+		/*if (Input::IsKeyDown(VK_ESCAPE)) {
 			g_bQuit = true;
-		}
+		}*/
 	}
 
 	void PlayerMove() {

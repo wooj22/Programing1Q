@@ -1,6 +1,6 @@
 #pragma once
 
-namespace play {
+namespace Play {
 
 	void Initalize();
 	void Update();

@@ -1,6 +1,6 @@
 #pragma once
 
-namespace end {
+namespace End {
 
 	void Initalize();
 	void Update();

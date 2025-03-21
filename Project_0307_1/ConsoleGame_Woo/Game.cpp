@@ -22,7 +22,7 @@ void Initalize() {
 	g_keyState = 0;
 
 	// 메뉴씬 시작
-	menu::Initalize();
+	Menu::Initalize();
 }
 
 // Update : SceneCurrent에 따라 Update()호출
@@ -37,11 +37,11 @@ void Update() {
 		{
 			case MENU_SCENE:
 				g_SceneCurrent = PLAY_SCENE;
-				play::Initalize();
+				Play::Initalize();
 				break;
 			case PLAY_SCENE:
 				g_SceneCurrent = END_SCENE;
-				end::Initalize();
+				End::Initalize();
 				// END SCENE 진입, 10초뒤 MENU SCENE 전환
 				QueryPerformanceFrequency(&freq);
 				QueryPerformanceCounter(&startTime);
@@ -59,13 +59,13 @@ void Update() {
 	switch (g_SceneCurrent)
 	{
 		case MENU_SCENE:
-			menu::Update();
+			Menu::Update();
 			break;
 		case PLAY_SCENE:
-			play::Update();
+			Play::Update();
 			break;
 		case END_SCENE:
-			end::Update();
+			End::Update();
 
 			// END SCENE 5초 경과시 MENU SCENE 이동
 			QueryPerformanceCounter(&endTime);
@@ -73,7 +73,7 @@ void Update() {
 
 			if (elapsedTime >= 5.0) {
 				g_SceneCurrent = MENU_SCENE;
-				menu::Initalize();
+				Menu::Initalize();
 			}
 			break;
 		default:
@@ -89,13 +89,13 @@ void Render() {
 	switch (g_SceneCurrent)
 	{
 	case MENU_SCENE:
-		menu::Render();
+		Menu::Render();
 		break;
 	case PLAY_SCENE:
-		play::Render();
+		Play::Render();
 		break;
 	case END_SCENE:
-		end::Render();
+		End::Render();
 		break;
 	default:
 		printf("여기오면 안되는데\n");
