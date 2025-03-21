@@ -9,9 +9,6 @@ namespace end {
 	// Start
 	void Initalize() {
 		//printf("---------------End Scene Initalize----------------\n");
-		ConsoleRenderer::ScreenClear();
-		ConsoleRenderer::ScreenDrawString(0, 0, "END SCENE  5초뒤 MENU SCENE으로 이동합니다", FG_GRAY);
-		ConsoleRenderer::ScreenFlipping();
 	}
 
 	// Update 
@@ -22,5 +19,6 @@ namespace end {
 	// Render
 	void Render() {
 		//printf("End Scene Render\n");
+		ConsoleRenderer::ScreenDrawString(0, 0, "END SCENE  5초뒤 MENU SCENE으로 이동합니다", FG_GRAY);
 	}
 }

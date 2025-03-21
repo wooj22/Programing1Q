@@ -7,9 +7,6 @@ namespace menu {
 	// Start
 	void Initalize() {
 		//printf("---------------Menu Scene Initalize----------------\n");
-		ConsoleRenderer::ScreenClear();
-		ConsoleRenderer::ScreenDrawString(0, 0, "MENU SCENE", FG_YELLOW);
-		ConsoleRenderer::ScreenFlipping();
 	}
 
 	// Update 
@@ -20,5 +17,6 @@ namespace menu {
 	// Render
 	void Render() {
 		//printf("Menu Scene Render\n");
+		ConsoleRenderer::ScreenDrawString(0, 0, "MENU SCENE", FG_YELLOW);
 	}
 }

@@ -84,6 +84,8 @@ void Update() {
 
 // Render : SceneCurrent에 따라 Render()호출  
 void Render() {
+	ConsoleRenderer::ScreenClear();
+
 	switch (g_SceneCurrent)
 	{
 	case MENU_SCENE:
@@ -99,6 +101,8 @@ void Render() {
 		printf("여기오면 안되는데\n");
 		break;
 	}
+
+	ConsoleRenderer::ScreenFlipping();
 }
 
 // Main : 게임 진행
