@@ -18,7 +18,7 @@ namespace Play {
 		ProcessInput();
 		PlayerMove();
 
-		// scene change
+		// scene change (현재 Game.cpp에 구현되어있음)
 		if (Input::IsKeyPressed(VK_SPACE)) {
 
 		}
