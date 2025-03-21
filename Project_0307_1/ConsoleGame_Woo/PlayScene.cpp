@@ -22,7 +22,7 @@ namespace play {
 	void Render() {
 		//printf("Play Scene Render\n");
 		ConsoleRenderer::ScreenClear();
-		ConsoleRenderer::ScreenDrawString(0, 0, "[PLAY SCENE]", FG_RED);
+		ConsoleRenderer::ScreenDrawString(0, 0, "PLAY SCENE", FG_RED);
 		ConsoleRenderer::ScreenDrawChar(g_Player.X, g_Player.Y, 'P', FG_WHITE);
 		ConsoleRenderer::ScreenFlipping();
 	}
