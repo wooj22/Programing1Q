@@ -113,6 +113,23 @@ namespace ConsoleRenderer
         return bRval;
     }
 
+    // 추가
+    bool ScreenDrawChar(int x, int y, wchar_t ch, WORD attr)
+    {
+        COORD	cdPos;
+        BOOL	bRval = FALSE;
+        DWORD	dwCharsWritten;
+        cdPos.X = x;
+        cdPos.Y = y;
+
+        bRval = FillConsoleOutputCharacterW(hScreenBuffer[nScreenBufferIndex], ch, 1, cdPos, &dwCharsWritten);
+        if (bRval == false) OutputDebugStringA("Error, FillConsoleOutputCharacter()\n");
+
+        bRval = FillConsoleOutputAttribute(hScreenBuffer[nScreenBufferIndex], attr, 1, cdPos, &dwCharsWritten);
+        if (bRval == false) OutputDebugStringA("Error, FillConsoleOutputAttribute()\n");
+        return bRval;
+    }
+
     /**
      * @brief 특정 위치 (x, y)에 문자열 출력 및 속성 설정
      *
