@@ -129,7 +129,11 @@
   <ItemGroup>
     <ClCompile Include="abstraction.cpp" />
     <ClCompile Include="class.cpp" />
+    <ClCompile Include="ClassOperatorOverloading.cpp" />
+    <ClCompile Include="Friend.cpp" />
     <ClCompile Include="RVO.cpp" />
+    <ClCompile Include="Static.cpp" />
+    <ClCompile Include="Template.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
