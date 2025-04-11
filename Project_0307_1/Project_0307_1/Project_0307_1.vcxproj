@@ -133,6 +133,7 @@
     <ClCompile Include="Add.cpp" />
     <ClCompile Include="Dice.cpp" />
     <ClCompile Include="DynamicMemoryAllocation.cpp" />
+    <ClCompile Include="Epsilon.cpp" />
     <ClCompile Include="FileIOTest.cpp" />
     <ClCompile Include="GetAsyncKeyState.cpp" />
     <ClCompile Include="HangMan.cpp" />

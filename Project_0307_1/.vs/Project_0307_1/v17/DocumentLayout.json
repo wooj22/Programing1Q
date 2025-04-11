@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\Epsilon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D1431518-4B52-4F07-8D22-D8430B1D4DA4}|Project_0307_1\\Project_0307_1.vcxproj|solutionrelative:Project_0307_1\\Epsilon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2623B4F-5C9B-41F9-9570-DBF8F24CCA67}|ClassProject\\ClassProject.vcxproj|C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ClassProject\\Static.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B2623B4F-5C9B-41F9-9570-DBF8F24CCA67}|ClassProject\\ClassProject.vcxproj|solutionrelative:ClassProject\\Static.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -43,19 +47,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Epsilon.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\Epsilon.cpp",
+              "RelativeDocumentMoniker": "Project_0307_1\\Epsilon.cpp",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\Project_0307_1\\Epsilon.cpp",
+              "RelativeToolTip": "Project_0307_1\\Epsilon.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-11T01:12:21.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Static.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ClassProject\\Static.cpp",
               "RelativeDocumentMoniker": "ClassProject\\Static.cpp",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ClassProject\\Static.cpp",
               "RelativeToolTip": "ClassProject\\Static.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-10T05:43:12.009Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Friend.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ClassProject\\Friend.cpp",
               "RelativeDocumentMoniker": "ClassProject\\Friend.cpp",
@@ -63,12 +80,11 @@
               "RelativeToolTip": "ClassProject\\Friend.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-10T05:40:50.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T05:40:50.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Template.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ClassProject\\Template.cpp",
               "RelativeDocumentMoniker": "ClassProject\\Template.cpp",
@@ -76,12 +92,11 @@
               "RelativeToolTip": "ClassProject\\Template.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-10T05:39:59.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T05:39:59.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ClassOperatorOverloading.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ClassProject\\ClassOperatorOverloading.cpp",
               "RelativeDocumentMoniker": "ClassProject\\ClassOperatorOverloading.cpp",
@@ -89,12 +104,11 @@
               "RelativeToolTip": "ClassProject\\ClassOperatorOverloading.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-10T05:29:21.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T05:29:21.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RVO.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ClassProject\\RVO.cpp",
               "RelativeDocumentMoniker": "ClassProject\\RVO.cpp",
@@ -102,12 +116,11 @@
               "RelativeToolTip": "ClassProject\\RVO.cpp",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAwA4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-10T05:22:39.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T05:22:39.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "abstraction.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ClassProject\\abstraction.cpp",
               "RelativeDocumentMoniker": "ClassProject\\abstraction.cpp",
@@ -115,12 +128,11 @@
               "RelativeToolTip": "ClassProject\\abstraction.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-07T06:04:10.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T06:04:10.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "class.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Programing1Q\\Project_0307_1\\ClassProject\\class.cpp",
               "RelativeDocumentMoniker": "ClassProject\\class.cpp",
@@ -128,8 +140,7 @@
               "RelativeToolTip": "ClassProject\\class.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-07T05:08:42.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T05:08:42.822Z"
             }
           ]
         }
