@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleGame_Woo", "ConsoleG
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassProject", "ClassProject\ClassProject.vcxproj", "{B2623B4F-5C9B-41F9-9570-DBF8F24CCA67}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study", "Study\Study.vcxproj", "{E1D92913-226A-48E7-A6A0-C83982CC246D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{B2623B4F-5C9B-41F9-9570-DBF8F24CCA67}.Release|x64.Build.0 = Release|x64
 		{B2623B4F-5C9B-41F9-9570-DBF8F24CCA67}.Release|x86.ActiveCfg = Release|Win32
 		{B2623B4F-5C9B-41F9-9570-DBF8F24CCA67}.Release|x86.Build.0 = Release|Win32
+		{E1D92913-226A-48E7-A6A0-C83982CC246D}.Debug|x64.ActiveCfg = Debug|x64
+		{E1D92913-226A-48E7-A6A0-C83982CC246D}.Debug|x64.Build.0 = Debug|x64
+		{E1D92913-226A-48E7-A6A0-C83982CC246D}.Debug|x86.ActiveCfg = Debug|Win32
+		{E1D92913-226A-48E7-A6A0-C83982CC246D}.Debug|x86.Build.0 = Debug|Win32
+		{E1D92913-226A-48E7-A6A0-C83982CC246D}.Release|x64.ActiveCfg = Release|x64
+		{E1D92913-226A-48E7-A6A0-C83982CC246D}.Release|x64.Build.0 = Release|x64
+		{E1D92913-226A-48E7-A6A0-C83982CC246D}.Release|x86.ActiveCfg = Release|Win32
+		{E1D92913-226A-48E7-A6A0-C83982CC246D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
