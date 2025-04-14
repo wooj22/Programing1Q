@@ -1,219 +1,214 @@
-#include <iostream>
+ï»¿#include <iostream>
+using namespace std;
 
 /*
-// µ¿Àû¹è¿­ (Dynamic Array)
-// : ¹è¿­ÀÌ±â ¶§¹®¿¡ ¿¬¼ÓÀûÀÎ ¸Ş¸ğ¸®¸¦ °¡Áö¸ç, ¼ÂÆÃÇÑ size¸¦ ÃÊ°úÇÒ °æ¿ì
-//   ÀÚµ¿À¸·Î ´õ Å« ¸Ş¸ğ¸®¸¦ ÀçÇÒ´çÇÏ¿© ¿ä¼Ò¸¦ º¹»çÇÏ°í È®ÀåÇÑ´Ù.
-//   Áß°£ ¿ä¼ÒÀÇ »ğÀÔ »èÁ¦´Â ¸¹Àº ¿ä¼Ò¸¦ ÀÌµ¿½ÃÄÑ¾ßÇÏ¹Ç·Î ¼º´É»ó ºÎ´ãÀÌ ÀÖÁö¸¸,
-//   ¿¬¼ÓµÈ ¸Ş¸ğ¸®¸¦ »ç¿ëÇÏ¿© CPU Ä³½Ã È¿À²ÀÌ ¸Å¿ì ³ô´Ù.
-// - Low-level operator new/delete È°¿ë ¹æ¹ı
-// - serve / resize Â÷ÀÌ
-// - µ¿Àû¹è¿­ insert / erase ÀÇ ÇÑ°è
-// - µ¿Àû¹è¿­ »èÁ¦¸¦ ÇØ°áÇÏ±âÀ§ÇÑ erase_unordered
+// ë™ì ë°°ì—´ (Dynamic Array)
+//   ë°°ì—´ì´ê¸° ë•Œë¬¸ì— ì—°ì†ì ì¸ ë©”ëª¨ë¦¬ë¥¼ ê°€ì§€ë©°, ì…‹íŒ…í•œ sizeë¥¼ ì´ˆê³¼í•  ê²½ìš°
+//   ìë™ìœ¼ë¡œ ë” í° ë©”ëª¨ë¦¬ë¥¼ ì¬í• ë‹¹í•˜ì—¬ ìš”ì†Œë¥¼ ë³µì‚¬í•˜ê³  í™•ì¥í•œë‹¤.
+//   ì¤‘ê°„ ìš”ì†Œì˜ ì‚½ì… ì‚­ì œëŠ” ë§ì€ ìš”ì†Œë¥¼ ì´ë™ì‹œì¼œì•¼í•˜ë¯€ë¡œ ì„±ëŠ¥ìƒ ë¶€ë‹´ì´ ìˆì§€ë§Œ,
+//   ì—°ì†ëœ ë©”ëª¨ë¦¬ë¥¼ ì‚¬ìš©í•˜ì—¬ CPU ìºì‹œ íš¨ìœ¨ì´ ë§¤ìš° ë†’ë‹¤.
+
+// 1. Low-level operator new/delete í™œìš© ë°©ë²• â­
+//  - C++ì—ì„œì˜ ê°€ì¥ ì €ìˆ˜ì¤€ ë©”ëª¨ë¦¬ ê´€ë¦¬ ê¸°ìˆ ë¡œ, ë©”ëª¨ë¦¬ ê´€ë¦¬ì™€ ì¸ìŠ¤í„´ìŠ¤ ìƒì„±/ì†Œë©¸ì„ ë¶„ë¦¬í•˜ì—¬ ë©”ëª¨ë¦¬ë¥¼ ì¬í™œìš©í•œë‹¤.
+//  - operator new(size_t), operator delete(size_t), new(í• ë‹¹ëœë©”ëª¨ë¦¬) í• ë‹¹í•  value
+// 2. rserve / resize ì°¨ì´
+// 3. ë™ì ë°°ì—´ insert / erase ì˜ í•œê³„
+// 4. ë™ì ë°°ì—´ ì‚­ì œë¥¼ í•´ê²°í•˜ê¸°ìœ„í•œ erase_unordered
 */
 
 template <typename T>
 class DynamicArray
 {
 private:
-	T* data = nullptr;	    // µ¿Àû ¸Ş¸ğ¸® ÇÒ´çÀ» À§ÇÑ Æ÷ÀÎÅÍ
-	size_t size = 0;		// »ç¿ëµÈ ¸Ş¸ğ¸®ÀÇ Å©±â
-	size_t capacity = 0;    // ÇÒ´çµÈ ¸Ş¸ğ¸®ÀÇ Å©±â
+	T* data = nullptr;	    // ë™ì  ë©”ëª¨ë¦¬ í• ë‹¹ì„ ìœ„í•œ í¬ì¸í„°
+	size_t size = 0;		// í˜„ì¬ ì‚¬ìš©ì¤‘ì¸ ìš”ì†Œ ê°œìˆ˜
+	size_t capacity = 0;    // ë©”ëª¨ë¦¬ë¡œ í™•ë³´í•œ ìš”ì†Œ ê°œìˆ˜
 
 public:
 	DynamicArray() {}
 	~DynamicArray()
 	{
-		clear();
-		::operator delete(data); // ¸Ş¸ğ¸® ÇØÁ¦ 
+		clear();				 // ê°ì²´ ì†Œë©¸
+		::operator delete(data); // ë©”ëª¨ë¦¬ í•´ì œ
 		data = nullptr;
 		size = 0;
 		capacity = 0;
 	}
-	
-	/*--------------- push, insert, remove, clear ---------------*/
-	/// ¸Ç µÚ¿¡ °ª »ğÀÔ
-	void push_back(const T& value)
-	{
-		std::cout << "push_back" << std::endl;
-		if (size >= capacity)
-		{
-			reserve((capacity == 0) ? 1 : capacity * 2);
-		}
-		data[size++] = value; // º¹»ç ´ëÀÔ ¿¬»êÀÚ
-	}
-
-	/// ¸¶Áö¸· ¿ä¼Ò »èÁ¦
-	void pop_back()
-	{
-		std::cout << "pop_back" << std::endl;
-		if (size > 0)
-		{
-			data[--size].~T(); // ¼Ò¸êÀÚ È£Ãâ
-			--size;
-		}
-	}
-
-	/// index¿¡ ¿ä¼Ò »ğÀÔ
-	void insert(size_t index, const T& value)
-	{
-		std::cout << "insert" << index << std::endl;
-		if (index > size)
-		{
-			throw std::out_of_range("Index out of range");
-		}
-		if (size >= capacity)
-		{
-			reserve((capacity == 0) ? 1 : capacity * 2);
-		}
-		// ÇÑÄ­¾¿ µÚ·Î ¹Ğ±â
-		for (size_t i = size; i > index; --i)
-		{
-			data[i] = data[i - 1]; // º¹»ç ´ëÀÔ ¿¬»êÀÚ È£Ãâ
-		}
-		data[index] = value; // º¹»ç ´ëÀÔ ¿¬»êÀÚ È£Ãâ
-		++size;
-	}
-
-	/// indexÀÇ ¿ä¼Ò »èÁ¦
-	void erase(size_t index)
-	{
-		std::cout << "erase" << index << std::endl;
-		if (index >= size)
-		{
-			throw std::out_of_range("Index out of range");
-		}
-		data[index].~T(); // ¼Ò¸êÀÚ È£Ãâ
-		for (size_t i = index; i < size - 1; ++i)
-		{
-			data[i] = data[i + 1]; // º¹»ç ´ëÀÔ ¿¬»êÀÚ È£Ãâ
-		}
-		--size;
-	}
-
-	/// ¸ğµç ¿ä¼Ò Á¦°Å (¸Ş¸ğ¸®´Â À¯Áö)
-	void clear()
-	{
-		for (size_t i = 0; i < size; ++i)
-		{
-			data[i].~T(); // ¼Ò¸êÀÚ È£Ãâ
-		}
-		size = 0;
-	}
-
-
-	/*------------------ get --------------------*/
-	/// °ø¹é »óÅÂ ¹İÈ¯
-	bool empty() const
-	{
-		return size == 0;
-	}
-
-	/// ³»ºÎ ¹è¿­ÀÇ ÀüÃ¼ ¿ë·® ¹İÈ¯
-	size_t capacity() const
-	{
-		return capacity;
-	}
-
-	/// ÇöÀç ¿ä¼Ò °³¼ö ¹İÈ¯
-	size_t size() const
-	{
-		return size;
-	}
-
-	/// ¹è¿­ÀÇ Ã¹¹øÂ° ¿ä¼Ò ¹İÈ¯
-	T& front()
-	{
-		if (size == 0)
-		{
-			throw std::out_of_range("Array is empty");
-		}
-		return data[0];
-	}
-
-	/// ¹è¿­ÀÇ ¸¶Áö¸· ¿ä¼Ò ¹İÈ¯
-	T& back()
-	{
-		if (size == 0)
-		{
-			throw std::out_of_range("Array is empty");
-		}
-		return data[size - 1];
-	}
-
-	/// [index] ÀÎµ¦½ºÀÇ ¿ä¼Ò ¹İÈ¯
-	T& operator[](size_t index)
-	{
-		if (index >= size)
-		{
-			throw std::out_of_range("Index out of range");
-		}
-		return data[index];
-	}
-
-	/// at(index) ÀÎµ¦½ºÀÇ ¿ä¼Ò ¹İÇÑ
-	const T& at(size_t index) const
-	{
-		if (index >= size)
-		{
-			throw std::out_of_range("Index out of range");
-		}
-		return data[index];
-	}
-
 
 	/*------------------ mamory --------------------*/
-	/// ¿ë·® È®º¸
+	/// ë©”ëª¨ë¦¬ í™•ë³´
 	void reserve(size_t newCap)
 	{
 		if (newCap <= capacity)
-			return; // ¿ë·®ÀÌ ÃæºĞÇÔ
+			return; // ìš©ëŸ‰ì´ ì¶©ë¶„í•¨
 
-		// 1. »õ ¸Ş¸ğ¸® ÇÒ´ç (T °´Ã¼ n°³ ºĞ·®¸¸Å­)
+		// 1. ìƒˆ ë©”ëª¨ë¦¬ í• ë‹¹ (T ê°ì²´ nê°œ ë¶„ëŸ‰ë§Œí¼)
 		T* newData = static_cast<T*>(::operator new(sizeof(T) * newCap));
 
-		// 2. ±âÁ¸ ¿ä¼Ò º¹»ç - placement new »ç¿ë
+		// 2. ê¸°ì¡´ ìš”ì†Œ ë³µì‚¬ - placement new ì‚¬ìš©
 		for (size_t i = 0; i < size; ++i)
 		{
-			::new (&newData[i]) T(data[i]); // º¹»ç»ı¼ºÀÚ È£Ãâ
-			data[i].~T(); // ±âÁ¸ ¿ä¼Ò ¼Ò¸êÀÚ È£Ãâ
+			::new (&newData[i]) T(data[i]); // ë³µì‚¬ìƒì„±ì í˜¸ì¶œ
+			data[i].~T();					// ê¸°ì¡´ ìš”ì†Œ ì†Œë©¸ì í˜¸ì¶œ
 		}
 
-		// 3. ±âÁ¸ ¸Ş¸ğ¸® ÇØÁ¦
+		// 3. ê¸°ì¡´ ë©”ëª¨ë¦¬ í•´ì œ
 		if (data != nullptr)
 			::operator delete(data);
 
-		// 4. Æ÷ÀÎÅÍ ¹× ¿ë·® °»½Å
+		// 4. í¬ì¸í„° ë° ìš©ëŸ‰ ê°±ì‹ 
 		data = newData;
 		capacity = newCap;
 	}
 
-	/// size º¯°æ (ÃÊ°úÇÏ¸é ±âº» °ªÀ¸·Î Ã¤¿ì±â)
+	/// ë©”ëª¨ë¦¬ ìš©ëŸ‰ ë³€ê²½ (ì´ˆê³¼í•˜ë©´ ê¸°ë³¸ ê°’ìœ¼ë¡œ ì±„ìš°ê¸°)
 	void resize(size_t newSize)
 	{
+		// ë©”ëª¨ë¦¬ ì¶”ê°€ í™•ë³´
 		if (newSize > capacity)
-			reserve(newSize); // ¸Ş¸ğ¸® ´Ã¸²
-
+			reserve(newSize); 
+		
 		if (newSize > size) {
-			// »õ·Î¿î ¿ä¼Ò »ı¼º
+			// ìƒˆë¡œìš´ ìš”ì†Œ ìƒì„±
 			for (size_t i = size; i < newSize; ++i)
-				::new (&data[i]) T(); // ±âº» »ı¼ºÀÚ È£Ãâ
-		}
-		else if (newSize < size) {
-			// ³²Àº ¿ä¼Ò ¼Ò¸êÀÚ È£Ãâ
+				::new (&data[i]) T();
+		}	
+		else if (newSize < size) {	
+			// ë‚¨ì€ ìš”ì†Œ ì†Œë©¸ì í˜¸ì¶œ
 			for (size_t i = newSize; i < size; ++i)
 				data[i].~T();
 		}
 
 		size = newSize;
 	}
-
 	
+	/*--------------- push, insert, remove, clear ---------------*/
+	/// ë§¨ ë’¤ì— ê°’ ì‚½ì…
+	void push_back(const T& value)
+	{
+		cout << "push_back" << endl;
+		if (size >= capacity)
+		{
+			reserve((capacity == 0) ? 1 : capacity * 2);
+		}
+		data[size++] = value; // ë³µì‚¬ ëŒ€ì… ì—°ì‚°ì
+	}
+
+	/// ë§ˆì§€ë§‰ ìš”ì†Œ ì‚­ì œ
+	void pop_back()
+	{
+		cout << "pop_back" << endl;
+		if (size > 0)
+		{
+			data[--size].~T(); // ì†Œë©¸ì í˜¸ì¶œ
+			--size;
+		}
+	}
+
+	/// indexì— ìš”ì†Œ ì‚½ì…
+	void insert(size_t index, const T& value)
+	{
+		cout << "insert" << index << endl;
+		if (index > size) throw out_of_range("Index out of range");
+
+		if (size >= capacity)
+		{
+			reserve((capacity == 0) ? 1 : capacity * 2);
+		}
+
+		// í•œì¹¸ì”© ë’¤ë¡œ ë°€ê¸°
+		for (size_t i = size; i > index; --i)
+		{
+			data[i] = data[i - 1]; // ë³µì‚¬ ëŒ€ì… ì—°ì‚°ì í˜¸ì¶œ
+		}
+
+		data[index] = value; // ë³µì‚¬ ëŒ€ì… ì—°ì‚°ì í˜¸ì¶œ
+		++size;
+	}
+
+	/// indexì˜ ìš”ì†Œ ì‚­ì œ
+	void erase(size_t index)
+	{
+		cout << "erase" << index << endl;
+		if (index >= size) throw out_of_range("Index out of range");
+
+		data[index].~T();		   // ì†Œë©¸ì í˜¸ì¶œ
+
+		for (size_t i = index; i < size - 1; ++i)
+		{
+			data[i] = data[i + 1]; // ë³µì‚¬ ëŒ€ì… ì—°ì‚°ì í˜¸ì¶œ
+		}
+		--size;
+	}
+
+	/// indexì˜ ìš”ì†Œ ì‚­ì œ (ìš”ì†Œì˜ ì´ë™ X)
+	/// ìˆœì„œê°€ ì¤‘ìš”í•˜ì§€ ì•Šì€ ë°°ì—´ ëª©ë¡(ê²Œì„ì˜¤ë¸Œì íŠ¸)ë¼ë©´ ì†Œë©¸ì í˜¸ì¶œ í›„ ëì˜ ìš”ì†Œë¡œ ë³µì‚¬ ëŒ€ì…í•˜ì—¬ êµì²´
+	void erase_unordered(size_t index) {
+
+	}
+
+	/// ëª¨ë“  ìš”ì†Œ ì œê±° (ë©”ëª¨ë¦¬ëŠ” ìœ ì§€)
+	void clear()
+	{
+		for (size_t i = 0; i < size; ++i)
+		{
+			data[i].~T(); // ì†Œë©¸ì í˜¸ì¶œ
+		}
+		size = 0;
+	}
+
+
+	/*------------------ get --------------------*/
+	/// [index] ì¸ë±ìŠ¤ì˜ ìš”ì†Œ ë°˜í™˜
+	T& operator[](size_t index)
+	{
+		if (index >= size) throw out_of_range("Index out of range");
+		return data[index];
+	}
+
+	/// at(index) ì¸ë±ìŠ¤ì˜ ìš”ì†Œ ë°˜í•œ
+	const T& at(size_t index) const
+	{
+		if (index >= size) throw out_of_range("Index out of range");
+		return data[index];
+	}
+
+	/// ë‚´ë¶€ ë°°ì—´ì˜ ì „ì²´ ìš©ëŸ‰ ë°˜í™˜
+	size_t getCapacity() const
+	{
+		return capacity;
+	}
+
+	/// í˜„ì¬ ìš”ì†Œ ê°œìˆ˜ ë°˜í™˜
+	size_t getSize() const
+	{
+		return size;
+	}
+
+	/// ê³µë°± ìƒíƒœ ë°˜í™˜
+	bool empty() const
+	{
+		return size == 0;
+	}
+
+	/// ë°°ì—´ì˜ ì²«ë²ˆì§¸ ìš”ì†Œ ë°˜í™˜
+	T& front()
+	{
+		if (size == 0) throw out_of_range("Array is empty");
+		return data[0];
+	}
+
+	/// ë°°ì—´ì˜ ë§ˆì§€ë§‰ ìš”ì†Œ ë°˜í™˜
+	T& back()
+	{
+		if (size == 0) throw out_of_range("Array is empty");
+		return data[size - 1];
+	}
+
+
 	//DynamicArray(const DynamicArray& other);
 	//DynamicArray& operator=(const DynamicArray& other);
 	//DynamicArray(DynamicArray&& other) noexcept;
 	//DynamicArray& operator=(DynamicArray&& other) noexcept;
-	//void erase_unordered(size_t index)
 	//void shrink_to_fit();
 };
-
