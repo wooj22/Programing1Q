@@ -223,45 +223,45 @@ public:
 
 
 /*------------------------- Main Program ------------------------------*/
-int main() {
-	// timer
-	LARGE_INTEGER freq, start, end;
-	double elapsedTime;
-	QueryPerformanceFrequency(&freq);
-	
-	// array size
-	const size_t valueMaxCount = 1000;
-	
-	// 고정 소수점
-	cout << fixed << setprecision(7);
-
-
-	// test 1. erase
-	DynamicArray<int> dynamicArray;
-	for (int i = 0; i < valueMaxCount; i++)
-		dynamicArray.push_back(i);
-
-	QueryPerformanceCounter(&start);
-	for (int i = 0; i < valueMaxCount; i++) 
-		dynamicArray.erase(0);
-	QueryPerformanceCounter(&end);
-
-	elapsedTime = static_cast<double>(end.QuadPart - start.QuadPart) / freq.QuadPart;
-	cout << "erase 소요시간 : " << elapsedTime << endl;
-
-	
-	// test 2. erase_unordered
-	DynamicArray<int> dynamicArray2;
-	for (int i = 0; i < valueMaxCount; i++)
-		dynamicArray2.push_back(i);
-
-	QueryPerformanceCounter(&start);
-	for (int i = 0; i < valueMaxCount; i++)
-		dynamicArray2.erase_unordered(0);
-	QueryPerformanceCounter(&end);
-
-	elapsedTime = static_cast<double>(end.QuadPart - start.QuadPart) / freq.QuadPart;
-	cout << "erase_unordered 소요시간 : " << elapsedTime << endl;
-	
-	return 0;
-}
+//int main() {
+//	// timer
+//	LARGE_INTEGER freq, start, end;
+//	double elapsedTime;
+//	QueryPerformanceFrequency(&freq);
+//	
+//	// array size
+//	const size_t valueMaxCount = 1000;
+//	
+//	// 고정 소수점
+//	cout << fixed << setprecision(7);
+//
+//
+//	// test 1. erase
+//	DynamicArray<int> dynamicArray;
+//	for (int i = 0; i < valueMaxCount; i++)
+//		dynamicArray.push_back(i);
+//
+//	QueryPerformanceCounter(&start);
+//	for (int i = 0; i < valueMaxCount; i++) 
+//		dynamicArray.erase(0);
+//	QueryPerformanceCounter(&end);
+//
+//	elapsedTime = static_cast<double>(end.QuadPart - start.QuadPart) / freq.QuadPart;
+//	cout << "erase 소요시간 : " << elapsedTime << endl;
+//
+//	
+//	// test 2. erase_unordered
+//	DynamicArray<int> dynamicArray2;
+//	for (int i = 0; i < valueMaxCount; i++)
+//		dynamicArray2.push_back(i);
+//
+//	QueryPerformanceCounter(&start);
+//	for (int i = 0; i < valueMaxCount; i++)
+//		dynamicArray2.erase_unordered(0);
+//	QueryPerformanceCounter(&end);
+//
+//	elapsedTime = static_cast<double>(end.QuadPart - start.QuadPart) / freq.QuadPart;
+//	cout << "erase_unordered 소요시간 : " << elapsedTime << endl;
+//	
+//	return 0;
+//}
