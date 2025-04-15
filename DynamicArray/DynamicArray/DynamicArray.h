@@ -1,4 +1,6 @@
 ﻿#include <iostream>
+#include <Windows.h>
+#include <iomanip>
 using namespace std;
 
 /*
@@ -86,7 +88,6 @@ public:
 	/// 맨 뒤에 값 삽입
 	void push_back(const T& value)
 	{
-		cout << "push_back" << endl;
 		if (size >= capacity)
 		{
 			reserve((capacity == 0) ? 1 : capacity * 2);
@@ -97,7 +98,6 @@ public:
 	/// 마지막 요소 삭제
 	void pop_back()
 	{
-		cout << "pop_back" << endl;
 		if (size > 0)
 		{
 			data[--size].~T(); // 소멸자 호출
@@ -119,32 +119,41 @@ public:
 		// 한칸씩 뒤로 밀기
 		for (size_t i = size; i > index; --i)
 		{
-			data[i] = data[i - 1]; // 복사 대입 연산자 호출
+			data[i] = data[i - 1];
 		}
 
-		data[index] = value; // 복사 대입 연산자 호출
+		// 요소 넣기
+		data[index] = value;
 		++size;
 	}
 
 	/// index의 요소 삭제
 	void erase(size_t index)
 	{
-		cout << "erase" << index << endl;
+		// 예외처리
 		if (index >= size) throw out_of_range("Index out of range");
 
-		data[index].~T();		   // 소멸자 호출
+		// 소멸자 호출
+		data[index].~T();	
 
+		// index 뒤의 요소들을 한칸씩 옮기기
 		for (size_t i = index; i < size - 1; ++i)
 		{
-			data[i] = data[i + 1]; // 복사 대입 연산자 호출
+			data[i] = data[i + 1];
 		}
 		--size;
 	}
 
-	/// index의 요소 삭제 (요소의 이동 X)
+	/// index의 요소 삭제 (요소의 전체 이동 X)
 	/// 순서가 중요하지 않은 배열 목록(게임오브젝트)라면 소멸자 호출 후 끝의 요소로 복사 대입하여 교체
-	void erase_unordered(size_t index) {
+	void erase_unordered(size_t index) 
+	{
+		// 예외처리
+		if (index >= size) throw out_of_range("Index out of range");
 
+		data[index].~T();			   // 소멸자 호출
+		data[index] = data[size - 1];  // 마지막 요소를 index에 넣기
+		--size;
 	}
 
 	/// 모든 요소 제거 (메모리는 유지)
@@ -205,10 +214,54 @@ public:
 		return data[size - 1];
 	}
 
-
 	//DynamicArray(const DynamicArray& other);
 	//DynamicArray& operator=(const DynamicArray& other);
 	//DynamicArray(DynamicArray&& other) noexcept;
 	//DynamicArray& operator=(DynamicArray&& other) noexcept;
 	//void shrink_to_fit();
 };
+
+
+/*------------------------- Main Program ------------------------------*/
+int main() {
+	// timer
+	LARGE_INTEGER freq, start, end;
+	double elapsedTime;
+	QueryPerformanceFrequency(&freq);
+	
+	// array size
+	const size_t valueMaxCount = 1000;
+	
+	// 고정 소수점
+	cout << fixed << setprecision(7);
+
+
+	// test 1. erase
+	DynamicArray<int> dynamicArray;
+	for (int i = 0; i < valueMaxCount; i++)
+		dynamicArray.push_back(i);
+
+	QueryPerformanceCounter(&start);
+	for (int i = 0; i < valueMaxCount; i++) 
+		dynamicArray.erase(0);
+	QueryPerformanceCounter(&end);
+
+	elapsedTime = static_cast<double>(end.QuadPart - start.QuadPart) / freq.QuadPart;
+	cout << "erase 소요시간 : " << elapsedTime << endl;
+
+	
+	// test 2. erase_unordered
+	DynamicArray<int> dynamicArray2;
+	for (int i = 0; i < valueMaxCount; i++)
+		dynamicArray2.push_back(i);
+
+	QueryPerformanceCounter(&start);
+	for (int i = 0; i < valueMaxCount; i++)
+		dynamicArray2.erase_unordered(0);
+	QueryPerformanceCounter(&end);
+
+	elapsedTime = static_cast<double>(end.QuadPart - start.QuadPart) / freq.QuadPart;
+	cout << "erase_unordered 소요시간 : " << elapsedTime << endl;
+	
+	return 0;
+}
